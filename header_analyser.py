@@ -1,5 +1,6 @@
 import pandas as pd
 
+'''Returns type of header if meets the key header'''
 def get_header_type(dataset):
 
     headers_list = ["corruption", "human_trafficking"]
