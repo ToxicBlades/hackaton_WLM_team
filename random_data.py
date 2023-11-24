@@ -1,7 +1,7 @@
 import csv
 import random
 
-"""This function generates simulated human trafficking data and writes it to a CSV file."""
+'''This function generates simulated human trafficking data and writes it to a CSV file.'''
 def generate_data():
     def generate_gender():
         r = random.randint(1, 30000)
@@ -66,6 +66,3 @@ def generate_data():
         writer.writerows(data_rows)
 
     print("Generated data written to 'generated_data.csv' file")
-
-# Call the function to generate data and write to CSV file
-generate_data()
