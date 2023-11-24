@@ -9,5 +9,3 @@ def get_header_type(dataset):
     for header in headers:
         if header in headers_list:
             return header
-
-print(get_header_type("human_tr.csv"))
