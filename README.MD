@@ -1,6 +1,16 @@
 # This is WLM team solution of hackaton 24.11.2023 - 25.11.2023 human trafficking
 
-## To start this project after cloning this repositiry,you will need:
+# Task:
+
+Objective: Create a basic prototype incorporating the use of ML/AI tools to assist in reporting on human trafficking.
+Judging Criteria:
+Relevance (25p): Creative use of ML/AI techniques in addressing the issue of human trafficking, demonstrating an understanding of the relevant technologies.
+Prototype Development (25p): The development of a functional prototype that showcases the proposed ML/AI solution.
+Technical Execution (25p): The quality, clarity, efficiency and ease of use of the tool created during the hackathon.
+Versatility and Adaptability (15p): The potential of the tool to be adapted for various types of journalistic investigations, demonstrating its utility in diverse reporting contexts beyond just human trafficking.
+Impact Potential in Journalism (10p): The tool's potential effectiveness in aiding journalistic efforts against human trafficking.
+
+## To start this project part of project after cloning this repositiry,you will need:
 
 ### 1st step:
 
@@ -20,12 +30,21 @@ Install all modules using command `pip install -r requirements.txt`
 
 Run project from main.py
 
-#Task:
-Использование технологий машинного обучения и искусственного интеллекта в журналистике
-Цель: Создание базового прототипа, включающего использование инструментов машинного обучения и искусственного интеллекта для освещения проблемы торговли людьми.
-Критерии оценки:
-Актуальность (25 баллов): Творческое использование техник машинного обучения/искусственного интеллекта для решения проблемы торговли людьми, демонстрация понимания соответствующих технологий.
-Разработка прототипа (25 баллов): Разработка функционального прототипа, демонстрирующего предложенное решение на базе МО/ИИ.
-Техническое исполнение (25 баллов): Качество, ясность, эффективность и простота использования созданного во время хакатона инструмента.
-Универсальность и адаптивность (15 баллов): Потенциал инструмента для адаптации к различным типам журналистских расследований, демонстрирующий его полезность в разнообразных контекстах репортажей, не ограничиваясь только проблемой торговли людьми.
-Потенциал воздействия в журналистике (10 баллов): Потенциальная эффективность инструмента в помощи журналистским усилиям против торговли людьми.
+## !!! This is only tiny backend of our project which helps us to display data and work with our machine
+
+### For starting fronend you will need to go to `https://github.com/scott1C/hackaton-wlm-site`
+
+### Step 1:
+
+after clonning, `npm i`/`yarn add`/`pnpm i`
+
+### Step 2:
+
+Start you backend then run `npm run dev` for dev version
+`npm run build` for creating optimized build
+
+## The machine Learning is create in google colab, If you want to do same machine learninig or check how we trained our machine check it here
+
+Main project + Corruption Map - `https://colab.research.google.com/drive/1tysQYVaAK3Y5Ao9uGhdvBJj-zktkVvps?usp=sharing`
+
+Coming soon dataset(40k of cleaned rows,clusters,a lot of info,only in process) - `https://colab.research.google.com/drive/1tysQYVaAK3Y5Ao9uGhdvBJj-zktkVvps?usp=sharing`

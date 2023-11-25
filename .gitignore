@@ -1,5 +1,5 @@
 config.py
-pychache
+__pycache__
 venv
 .csv
 test.py
